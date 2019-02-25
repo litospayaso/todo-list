@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Groceries",
+        "todos": [
+            {
+                "element": "lettuce",
+                "done": false
+            },
+            {
+                "element": "onion",
+                "done": false
+            },
+            {
+                "element": "soya milk",
+                "done": false
+            },
+            {
+                "element": "tomatoes",
+                "done": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Application",
+        "todos": [
+            {
+                "element": "Detail component",
+                "done": false
+            },
+            {
+                "element": "fetch example json",
+                "done": false
+            },
+            {
+                "element": "Home component",
+                "done": false
+            },
+            {
+                "element": "Create new list",
+                "done": false
+            },
+            {
+                "element": "Create new todo element",
+                "done": false
+            }
+        ]
+    }
+]

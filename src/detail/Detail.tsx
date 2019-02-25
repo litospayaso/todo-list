@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import './Detail.scss';
 
 interface Props {
-  id:number;
   match: match<{id:string}>;
+}
+
+interface State {
+  id: string;
 }
 
 interface match<P> {
@@ -12,17 +15,19 @@ interface match<P> {
   path: string;
   url: string;
 }
-class Detail extends Component {
+
+class Detail extends Component<Props,State> {
 
   constructor(props: Props) {
     super(props);
-    console.log(props.match.params.id);
+    const id = props.match.params.id;
+    this.state = {id};
 	}
 
   render() {
     return (
       <div className="Detail">
-        Detail works!
+        Note: {this.state.id}
       </div>
     );
   }
